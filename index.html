@@ -9,26 +9,30 @@
 <body>
         <div class="container mt-5">
             <h2>Formulário de Contato</h2>
-            <form id="form">
+            <form id="contactForm">
                 
                     <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label"></label>Nome:
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Digite seu nome">
+                <small class="form-text text-danger" id="nameError"></small>
                       </div>
                 
                     <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">E-mail:</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Digite seu e-mail">
+                <small class="form-text text-danger" id="e-mailError"></small>
                       </div>
                       <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escreva sua mensagem"></textarea>
+                <small class="form-text text-danger" id="messageError"></small>
                       </div>
                 
             </form>
                   <button class="btn btn-primary" type="submit">Enviar</button>
             
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+                
+                <script src="script.js"></script>
         </div>
 </body>
 </html>
